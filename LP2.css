@@ -1,0 +1,65 @@
+.button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 120px;
+    background-origin: padding-box;
+    color: white;
+    background-color: #f45217;
+}
+
+.cards {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    color: #666;
+  }
+
+  .food{
+filter: blur(1px);
+  }
+
+  .text-container{
+    position: absolute;
+            color: rgb(255, 255, 255);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0.5rem;
+            text-align: center;
+            
+  }
+  .photos{
+    border-image-width: 40px;
+  }
+
+  .hf{
+    
+    font-size: 20px;
+    font-family: cursive;
+    text-shadow: blue;
+    color: black;
+    margin-top: 120px;
+    margin-left: 300px;
+  }
